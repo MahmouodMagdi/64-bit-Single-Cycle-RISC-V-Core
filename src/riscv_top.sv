@@ -1,4 +1,16 @@
 `timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+//
+// Author:              Mahmoud Magdi 
+// 
+// Design Name:         RISC-V Core 
+// Module Name:         riscv_top
+// Project Name:        64-bit Single Cycle RISC-V core  
+// Description:         This is the top module of the 64-bit risc-v core 
+//                      that supports the RV64I ISA
+// Dependencies:        
+// 
+//////////////////////////////////////////////////////////////////////////////////
 
 module riscv_top #(
 
