@@ -1,4 +1,16 @@
 `timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+//
+// Author:              Mahmoud Magdi 
+// 
+// Design Name:         RISC-V Core 
+// Module Name:         Adder
+// Project Name:        64-bit Single Cycle RISC-V core  
+// Description:         This is the PC adder that calculates the next PC value  
+//                      based on the current value and type of the PC
+// Dependencies:        
+// 
+//////////////////////////////////////////////////////////////////////////////////
 module Adder #(
 
     parameter DATA_WIDTH = 64
