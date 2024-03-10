@@ -1,4 +1,21 @@
 `timescale 1ns / 1ps
+//////////////////////////////////////////////////////////////////////////////////
+//
+// Author:              Mahmoud Magdi 
+// 
+// Design Name:         RISC-V Core 
+// Module Name:         ALU
+// Project Name:        64-bit Single Cycle RISC-V core  
+// Description:         This is the Arithematic Logic Unit which is the core unit 
+//                      of any processor.
+//			This unit supports:
+//						- R-Type: Add, Subtract, AND, OR, XOR 
+//						- I-Type: Addi, ANDi, ORi, XORi
+//						- B-Type: Branch if equal 
+//						- Memory Instructions: Load and Store
+//    
+// 
+//////////////////////////////////////////////////////////////////////////////////
 
 module ALU #(
 
